@@ -1,4 +1,4 @@
-package Simplilearn_Nov2021;
+package simplilearnNov2021;
 
 public class Calculator {
 
