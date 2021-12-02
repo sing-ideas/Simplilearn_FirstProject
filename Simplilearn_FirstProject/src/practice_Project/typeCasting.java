@@ -1,4 +1,4 @@
-package simplilearn_Nov2021;
+package practice_Project;
 
 public class typeCasting {
 
