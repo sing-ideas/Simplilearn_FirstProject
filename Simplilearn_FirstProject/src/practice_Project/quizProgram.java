@@ -9,6 +9,7 @@ public class quizProgram {
 		// declaring th variable here
 		int n;
 		
+				
  //creating scanner object here
 		
 		Scanner sc = new Scanner(System.in); //create a scanner object
