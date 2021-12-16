@@ -11,13 +11,14 @@ public class calculator_Arithmetic {
 		
 		while (true) //while loop begins
 		{
-			System.out.println("Arithmetic calculation options listed below...select anyone" );
+			System.out.println("Arithmetic calculation options listed below...select anyone option" );
 			System.out.println("1 = Addition");
 			System.out.println("2 = Subraction");
 			System.out.println("3 = Multiplication");
 			System.out.println("4 = Division");
-			
-		System.out.println("Select your calculation = " );
+		
+			System.out.println("Type the number and press - Enter " );
+			System.out.println("Select your calculation option = " );
 		int option = DataEntry.nextInt();	
 				
 		System.out.println("Enter the value ofnumber A:");
@@ -28,21 +29,21 @@ public class calculator_Arithmetic {
 		
 			if (option==1)
 			{
-			System.out.println("Value of " + A + "+" + B + " = " + (A+B));
+			System.out.println("Value of " + A + " + " + B + " = " + (A+B));
 			}
 		else if (option == 2)
 			{
-			System.out.println("Value of " + A + "-" + B + " = " + (A-B));
+			System.out.println("Value of " + A + " - " + B + " = " + (A-B));
 			}
 			
 		else if (option == 3)
 			{
-			System.out.println("Value of " + A + "x" + B + " = " + (A*B));
+			System.out.println("Value of " + A + " x " + B + " = " + (A*B));
 			}
 
 		else if (option == 4)
 			{
-			System.out.println("Value of " + A + "/" + B + " = " + (A/B));
+			System.out.println("Value of " + A + " / " + B + " = " + (A/B));
 			}
 		else 
 			{
@@ -53,9 +54,7 @@ public class calculator_Arithmetic {
 			System.out.println ("");
 			System.out.println ("-----------------*******---------------");
 			System.out.println ("");
-			
+			break;
 		} //while loop ends here
-		
 	}
-
 }
