@@ -27,38 +27,28 @@ public class calculator_Arithmetic {
 		System.out.println("Enter the value ofnumber B:");
 		int B = DataEntry.nextInt(); // declaring variable 2
 		
-		if (option==1)
-			
-		{
+			if (option==1)
+			{
 			System.out.println("Value of " + A + "+" + B + "=" + (A+B));
+			}
+		else if (option == 2)
+			{
+			System.out.println("Value of " + A + "-" + B + "=" + (A-B));
+			}
 			
-		}
+		else if (option == 1)
+			{
+			System.out.println("Value of " + A + "x" + B + "=" + (A*B));
+			}
+
+		else if (option == 3)
+			{
+			System.out.println("Value of " + A + "/" + B + "=" + (A/B));
+			}
 		else 
-		
-			if (option==2)
-				
 			{
-				System.out.println("Value of " + A + "+" + B + "=" + (A+B));
-				
+			System.out.println ("Thank you for using the app");
 			}
-			else if (option==1)
-				
-			{
-				System.out.println("Value of " + A + "+" + B + "=" + (A+B));
-				
-			}
-			else if (option==3)
-			
-		{
-			System.out.println("Value of " + A + "+" + B + "=" + (A+B));
-			
-		}
-		else
-			
-		{
-		System.out.println("Thank you for using the app");
-		
-		}
 				
 		} //while loop ends here
 		
